@@ -34,7 +34,7 @@ public class BookingTicket  {
 		   try {
 			   Hook.click(lv.getAdultcount());
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 			Hook.waits();
 		}
 	   }
@@ -44,7 +44,7 @@ public class BookingTicket  {
 			   lv.getChildcount().click();
 			   lv.getSeniorcount().click();
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 			Hook.waits();
 		}
 	  }
@@ -59,18 +59,10 @@ public class BookingTicket  {
 		try {
 			Hook.click(lv2.getCross());
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 			System.out.println("not visible");
 		}	
-//		List<WebElement> price= lv2.getPrice();
-//		Object[] price1 = new Object[price.size()];
-//		for(int i=0;i<=price.size()-1;i++) {
-//			price1[i]= price.get(i).getText();
-//		}	    
-//	    Arrays.sort(price1);
-//	    for(int i =0;i<=price1.length-1;i++) {
-//	    	System.out.println(price1[0]);
-//	    }
+
 	    
 		Hook.click(lv2.getDepartflight());
 		Hook.waits();
