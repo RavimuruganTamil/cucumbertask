@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2703429200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login scenario multiple",
+        "description": "",
+        "id": "fb-login-page-multiple-test;login-scenario-multiple;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 265676300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1084616900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the application",
+            "match": {
+              "location": "LoginStepdef.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179873400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the username as \"Kirthika\" and password as \"xxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kirthika\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"xxxx\"",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepdef.user_enter_the_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a supporting statement one",
+            "match": {
+              "location": "LoginStepdef.xxxx()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a supporting statement two",
+            "match": {
+              "location": "LoginStepdef.yyyy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdef.LoginStepdef.i_validate_the_outcomes(LoginStepdef.java:51)\r\n\tat ✽.I validate the outcomes(Features/sampleApr02.feature:8)\r\n",
+              "duration": 3297600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "LoginStepdef.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1300067500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login scenario multiple",
+        "description": "",
+        "id": "fb-login-page-multiple-test;login-scenario-multiple;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 346254700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 951269500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the application",
+            "match": {
+              "location": "LoginStepdef.launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221266400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the username as \"Balachander\" and password as \"bbbb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Balachander\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"bbbb\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepdef.user_enter_the_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a supporting statement one",
+            "match": {
+              "location": "LoginStepdef.xxxx()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 32200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a supporting statement two",
+            "match": {
+              "location": "LoginStepdef.yyyy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdef.LoginStepdef.i_validate_the_outcomes(LoginStepdef.java:51)\r\n\tat ✽.I validate the outcomes(Features/sampleApr02.feature:8)\r\n",
+              "duration": 199300,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "LoginStepdef.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FB login page multiple test",
+    "description": "",
+    "id": "fb-login-page-multiple-test",
+    "keyword": "Feature",
+    "uri": "Features/sampleApr02.feature",
+    "tags": []
+  }
+]
